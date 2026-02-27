@@ -53,6 +53,10 @@ def parse_vtt_find_timestamp(vtt_file, topic):
 
     return None
 
+@app.get("/")
+def root():
+    return {"status": "VideoSeek API is running"}
+
 @app.post("/ask")
 def ask(req: AskRequest):
     try:
