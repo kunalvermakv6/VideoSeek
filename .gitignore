@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files (important for yt-dlp / audio downloads)
+*.mp3
+*.m4a
+*.wav
+*.webm
+*.part
+*.temp
+
+# Subtitle or download leftovers
+*.vtt
+*.srt
+temp*
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Render (optional local files)
+.render/
+
+# Test artifacts
+.coverage
+htmlcov/
